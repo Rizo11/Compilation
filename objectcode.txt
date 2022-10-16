@@ -1,0 +1,26 @@
+objdump -t main.o
+
+    main.o:     file format pe-x86-64
+
+    SYMBOL TABLE:
+    [  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x0000000000000000 main.c
+    File 
+    [  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x0000000000000000 main
+    AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+    [  4](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .text
+    AUX scnlen 0x24 nreloc 3 nlnno 0
+    [  6](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .data
+    AUX scnlen 0x0 nreloc 0 nlnno 0
+    [  8](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .bss
+    AUX scnlen 0x0 nreloc 0 nlnno 0
+    [ 10](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .rdata
+    AUX scnlen 0xc nreloc 0 nlnno 0
+    [ 12](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .xdata
+    AUX scnlen 0xc nreloc 0 nlnno 0
+    [ 14](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .pdata
+    AUX scnlen 0xc nreloc 3 nlnno 0
+    [ 16](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x0000000000000000 .rdata$zzz
+    AUX scnlen 0x3f nreloc 0 nlnno 0
+    [ 18](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x0000000000000000 __main
+    [ 19](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x0000000000000000 puts
+    
